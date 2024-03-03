@@ -11,7 +11,15 @@
     place-content: center;
     background-color: darkturquoise;
   }
-  
+
+  .counter-section{
+      background: linear-gradient(to bottom, #9C27B0, #360fdf);
+  }
+
+  .timer-section{
+      background: linear-gradient(to top, red, yellow);
+  }
+
   input,
   button {
     font: inherit;
