@@ -26,7 +26,7 @@ const Timer = () => {
     const startInterval = () => { dispatch(start()) }
 
     return (
-        <section>
+        <section className="timer-section">
             <h3>Timer</h3>
             <p>{count}</p>
             <div>
